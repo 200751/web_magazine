@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ECF0F1;
+}
+header {
+    background-color: white;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+#logo {
+    height: 10vh;
+    margin-left: 5vw;
+}
+nav {
+    background-color: #04091D;
+    width: 90vw;
+    height: 10vh;
+    margin: 0 auto;
+}
+ul {
+    width: 45vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+li {
+    flex: 10%;
+    text-transform: uppercase;
+    line-height: 10vh;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+section {
+    margin-top: 2vh;
+}
+.image_article {
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+figcaption {
+    position: relative;
+    top: -30px;
+    left: 16px;
+}
+
+.top_articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200vh;
+    width: 90vw;
+    list-style-type: none;
+}
+.top_article {
+    width: 40%;
+    flex: 0 0 50%;
+
+}
+.big {
+    flex: 0 0 100%;
+    width: 60%;
+}
+.breaking {
+    background-color: white;
+    margin: 2vh 0 5vh 0;
+    width: 90vw;
+    height: 10vh;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    line-height: 10vh;
+    box-sizing: border-box;
+}
+.red {
+    color: red;
+    float: left;
+}
